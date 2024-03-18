@@ -22,12 +22,12 @@ echo "##########################################################################
 
 sleep 2
 echo
-echo "You need to install resourses to setup your darkweb website"
+echo "You need to install resourses & dependencies to setup your darkweb website"
 echo
 sleep 2
 
 function my_fun_1 () {
-read -p "➛ Press the key to install (Y or N): " key
+read -p "➛ Press the key to install dependencies (Y or N): " key
 
 stty -echo
 stty raw
